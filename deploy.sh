@@ -10,5 +10,5 @@ cd dist
 git init
 git add -A
 git commit -m 'deploy'
-git push -f git@github.com:innoktive/hello-world.git master:gh-pages
+git push -f git@github.com:innoktive/v8blog.git master:gh-pages
 cd -
