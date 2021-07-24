@@ -8,7 +8,10 @@
       
     </div>
 
-    <router-view/>
+  <transition name="effectOp">
+      <router-view/>
+  </transition>
+
   </div>
 </template>
 
@@ -34,4 +37,11 @@
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+
+ .effectOp-enter-active, .effectOp-leave-active {
+        transition: opacity .5s;
+    }
+    .effectOp-enter, .effectOp-leave-to {
+        opacity: 0;   
+    }
 </style>
