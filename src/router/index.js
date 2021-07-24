@@ -71,24 +71,6 @@ const routes = [
     component: AdminAdvance
   },
   
-    // {
-  //   path: '/about',
-  //   name: 'About',
-  //   // route level code-splitting
-  //   // this generates a separate chunk (about.[hash].js) for this route
-  //   // which is lazy-loaded when the route is visited.
-  //   component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-  // },
-  // {
-  //   path: '/lazyloading',
-  //   name: 'LazyLoading',
-  //   // route level code-splitting
-  //   // this generates a separate chunk (about.[hash].js) for this route
-  //   // which is lazy-loaded when the route is visited.
-  //   component: () => import(/* webpackChunkName: "about" */ '../views/LazyLoading.vue')
-  // },
-
-
   {
     path: '/*',
     component: RutaInexistente
@@ -102,3 +84,9 @@ const router = new VueRouter({
 })
 
 export default router
+
+
+// component: () => import(/* webpackChunkName: "about" */ '../views/LazyLoading.vue')
+
+
+
